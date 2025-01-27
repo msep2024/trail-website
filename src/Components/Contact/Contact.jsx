@@ -83,8 +83,8 @@ const Contact = () => {
           <label>whatapps Number</label>
           <input
             type="tel"
-            name=" whatapp-number"
-            placeholder="Enter your Whatapp number"
+            name=" whatsapp-number"
+            placeholder="Enter your Whatsapp number"
             required
           />
 
