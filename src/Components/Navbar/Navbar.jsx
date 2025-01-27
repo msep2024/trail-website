@@ -14,11 +14,7 @@ const Navbar = () => {
     <nav className={`container ${sticky ? "dark-nav" : ""}`}>
       <img src={logo} className="logo" />
       <ul>
-        <li>
-          <link to="hero" smooth={true} offset={0} duration={500}>
-            Home
-          </link>
-        </li>
+        <li> Home</li>
         <li>Program</li>
         <li>About us</li>
         <li>Courses</li>
