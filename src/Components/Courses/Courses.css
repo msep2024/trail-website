@@ -20,3 +20,17 @@
   background: #212EA0;
   color: #fff;
 }
+
+
+/* ------------------media query------------------ */
+
+@media (max-width:800px){
+  .courses-picture{
+    flex-wrap: wrap;
+  }
+
+  .courses-picture img{
+    width: 48%;
+    margin-bottom: 25px;
+  }
+}
