@@ -12,6 +12,7 @@ const Hero = () => {
         <button className="btn">
           Explore More <img src={icon} />
         </button>
+        <div className="notice"></div>
       </div>
     </div>
   );
