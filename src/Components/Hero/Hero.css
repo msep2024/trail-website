@@ -28,11 +28,7 @@
 }
 
 .notice{
-  height: 100px;
-  width: 100%;
-  border-radius: 10px;
-  border: 1px dotted red;
-
+  display: none;
 }
 
 
@@ -50,4 +46,14 @@
     font-size: 14px;
     margin: 15px auto 30px;
   }
+
+  .notice{
+    display: block;
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px dotted red;
+    margin-top: 50px;
+  }
+
  }

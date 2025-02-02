@@ -12,7 +12,10 @@ const Hero = () => {
         <button className="btn">
           Explore More <img src={icon} />
         </button>
-        <div className="notice"></div>
+        <div className="notice">
+          <a href="https://www.google.com/"></a>
+          <a href="https://www.netflix.com/"></a>
+        </div>
       </div>
     </div>
   );
