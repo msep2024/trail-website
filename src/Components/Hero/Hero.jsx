@@ -14,6 +14,7 @@ const Hero = () => {
         </button>
         <div className="notice">
           <a href="https://www.google.com/">Google.com</a>
+          <br />
           <a href="https://www.netflix.com/">Netflix.com</a>
         </div>
       </div>
