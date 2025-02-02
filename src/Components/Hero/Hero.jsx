@@ -13,8 +13,8 @@ const Hero = () => {
           Explore More <img src={icon} />
         </button>
         <div className="notice">
-          <a href="https://www.google.com/"></a>
-          <a href="https://www.netflix.com/"></a>
+          <a href="https://www.google.com/">Google.com</a>
+          <a href="https://www.netflix.com/">Netflix.com</a>
         </div>
       </div>
     </div>
