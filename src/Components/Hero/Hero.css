@@ -48,12 +48,14 @@
   }
 
   .notice{
-    display: block;
+    display: inline-block;
     height: 100px;
     width: 100%;
     border-radius: 10px;
     border: 1px dotted red;
     margin-top: 50px;
+    color: blue;
+    margin: 10px;
   }
 
  }
