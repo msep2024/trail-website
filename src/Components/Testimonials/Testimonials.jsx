@@ -4,9 +4,12 @@ import "./Testimonials.css";
 
 import next_icon from "../../assets/next-icon.png";
 import back_icon from "../../assets/back-icon.png";
-import user1 from "../../assets/user-1.png";
-import user2 from "../../assets/user-2.png";
-import user3 from "../../assets/user-3.png";
+import srv from "../../assets/srv.jpg";
+import chhabi from "../../assets/chhabi.jpg";
+import shivam from "../../assets/shivam.jpg";
+// import user1 from "../../assets/user-1.png";
+// import user2 from "../../assets/user-2.png";
+// import user3 from "../../assets/user-3.png";
 import user4 from "../../assets/user-4.png";
 
 const Testimonials = () => {
@@ -41,7 +44,7 @@ const Testimonials = () => {
           <li>
             <div className="slide">
               <div className="user-info">
-                <img src={user1} alt="" />
+                <img src={srv} alt="" />
                 <div>
                   <h3>Sumit Ranjan Verma</h3>
                   <span>MSEP, INDIA</span>
@@ -59,7 +62,7 @@ const Testimonials = () => {
           <li>
             <div className="slide">
               <div className="user-info">
-                <img src={user2} alt="" />
+                <img src={chhabi} alt="" />
                 <div>
                   <h3>Chhabi kumari</h3>
                   <span>MSEP, INDIA</span>
@@ -77,7 +80,7 @@ const Testimonials = () => {
           <li>
             <div className="slide">
               <div className="user-info">
-                <img src={user3} alt="" />
+                <img src={shivam} alt="" />
                 <div>
                   <h3>Shivam Kumar Singh</h3>
                   <span>MSEP, INDIA</span>
