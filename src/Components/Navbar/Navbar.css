@@ -14,7 +14,7 @@ nav{
 
 .logo{
   width: 180px;
-  background-color: gray;
+  background-color: rgba(8,0,58,0.7);
   border: none;
   border-radius: 10px;
 }
