@@ -16,6 +16,7 @@ nav{
   width: 180px;
   background-color: gray;
   border: none;
+  border-radius: 10px;
 }
 
 nav ul li{
