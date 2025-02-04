@@ -13,8 +13,8 @@ const Hero = () => {
           Explore More <img src={icon} />
         </button>
         <div className="notice">
+          <p>Hii everyone result will display of test of carrier simplify</p>
           <a href="https://www.google.com/">Google.com</a>
-          <br />
           <a href="https://www.netflix.com/">Netflix.com</a>
         </div>
       </div>
