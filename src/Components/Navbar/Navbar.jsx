@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
+
 import logo from "../../assets/Carrier-simplify.png";
 
 import menu_icon from "../../assets/menu-icon.png";
