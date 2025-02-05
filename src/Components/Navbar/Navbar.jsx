@@ -32,7 +32,7 @@ const Navbar = () => {
         <li>
           {" "}
           <Link to="program" smooth={true} offset={0} duration={500}>
-            Program
+            Annoucuments
           </Link>
         </li>
         <li>
