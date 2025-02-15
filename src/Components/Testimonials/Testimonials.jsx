@@ -7,10 +7,8 @@ import back_icon from "../../assets/back-icon.png";
 import srv from "../../assets/srv.jpg";
 import chhabi from "../../assets/chhabi.jpg";
 import shivam from "../../assets/shivam.jpg";
-// import user1 from "../../assets/user-1.png";
-// import user2 from "../../assets/user-2.png";
-// import user3 from "../../assets/user-3.png";
-import user4 from "../../assets/user-4.png";
+
+import prakash from "../../assets/prakash.jpg";
 
 const Testimonials = () => {
   const slider = useRef();
@@ -98,7 +96,7 @@ const Testimonials = () => {
           <li>
             <div className="slide">
               <div className="user-info">
-                <img src={user4} alt="" />
+                <img src={prakash} alt="" />
                 <div>
                   <h3>Prakash Kumar</h3>
                   <span>MSEP, INDIA</span>
