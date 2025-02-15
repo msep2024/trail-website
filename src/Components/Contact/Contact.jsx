@@ -50,7 +50,7 @@ const Contact = () => {
           <li>
             {" "}
             <img src={mail_icon} alt="" />
-            Carrier Simplify@2024gmail.com
+            CarrierSimplify@gmail.com
           </li>
           <li>
             {" "}
