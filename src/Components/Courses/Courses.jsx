@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./Courses.css";
-import course1 from "../../assets/gallery-1.png";
+import course1 from "../../assets/autoCAD.png";
 import course2 from "../../assets/gallery-2.png";
 import course3 from "../../assets/gallery-3.png";
 import course4 from "../../assets/gallery-4.png";

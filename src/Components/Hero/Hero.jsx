@@ -10,7 +10,7 @@ const Hero = () => {
           This is a Platform which you provide guidence to growth your carrier.
         </p>
         <button className="btn">
-          Explore More <img src={icon} />
+          <a href="https://www.google.com/">Explore More</a> <img src={icon} />
         </button>
         <div className="notice">
           <p>Hii everyone result will display of test of carrier simplify</p>
