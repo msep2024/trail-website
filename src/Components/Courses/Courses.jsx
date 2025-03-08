@@ -3,7 +3,7 @@ import React from "react";
 import "./Courses.css";
 
 import white_arrow from "../../assets/white-arrow.png";
-import { Button } from "react-scroll";
+
 import Card from "../Card/Card";
 
 import autocad from "../../assets/autocadlogo.jpg";
