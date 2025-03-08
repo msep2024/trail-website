@@ -6,15 +6,20 @@
 
 .courses-picture{
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 40px;
 }
 
-.courses-picture img{
+/* .courses-picture a img{
   width: 23%;
   border-radius: 10px;
-}
+} */
+
+
+
+
 
 .dark-btn{
   background: #212EA0;

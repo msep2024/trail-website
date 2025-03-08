@@ -36,6 +36,14 @@ nav ul li{
   display: none;
 }
 
+.login{
+  border: none;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  font-size: 10px;
+}
+
 
 /*-------------------------- media query ---------------------------- */
 

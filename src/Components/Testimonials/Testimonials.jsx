@@ -60,9 +60,9 @@ const Testimonials = () => {
           <li>
             <div className="slide">
               <div className="user-info">
-                <img src={chhabi} alt="" />
+                <img src={srv} alt="" />
                 <div>
-                  <h3>Chhabi kumari</h3>
+                  <h3>SRV</h3>
                   <span>MSEP, INDIA</span>
                 </div>
               </div>
