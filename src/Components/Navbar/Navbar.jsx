@@ -65,9 +65,9 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <a href="">
+          <Link to="/Login">
             <button className="login">Login</button>
-          </a>
+          </Link>
         </li>
       </ul>
       <img src={menu_icon} alt="" className="menu-icon" onClick={toggleMenu} />
