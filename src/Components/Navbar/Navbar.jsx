@@ -5,6 +5,7 @@ import menu_icon from "../../assets/menu-icon.png";
 import cslogo from "../../assets/cslogo.png";
 
 import { Link } from "react-scroll";
+import { Link as Ln } from "react-router-dom";
 
 const Navbar = () => {
   const [sticky, setSticky] = useState(false);
@@ -65,9 +66,9 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="/Login">
+          <Ln to="login">
             <button className="login">Login</button>
-          </Link>
+          </Ln>
         </li>
       </ul>
       <img src={menu_icon} alt="" className="menu-icon" onClick={toggleMenu} />

@@ -9,10 +9,8 @@ import autocad from "../../assets/autocadlogo.jpg";
 import matlab from "../../assets/matlab.jpg";
 import webdevelopment from "../../assets/webdevelopmentlogo.jpg";
 import civilautocad from "../../assets/civilautocad.jpg";
-import AdvanceExcel from "../../assets/Advanceexcel.jpg";
-import powerbi from "../../assets/powerBi.jpg";
-import Aws from "../../assets/Aws.jpg";
-import sql from "../../assets/sql.png";
+
+import { Link } from "react-scroll";
 
 const Courses = () => {
   return (
@@ -30,18 +28,12 @@ const Courses = () => {
           img={civilautocad}
           buttonName="Explore more"
         />
-        <Card
-          buttonName="Comming soon"
-          img={AdvanceExcel}
-          name="Advance Excel"
-        />
-        <Card buttonName="Comming soon" img={powerbi} name="Power BI" />
-        <Card buttonName="Comming soon" img={Aws} name="Aws" />
-        <Card buttonName="Comming soon" img={sql} name="SQL" />
       </div>
-      <button className="btn dark-btn">
-        See more here <img src={white_arrow} alt="" />
-      </button>
+      <a href="/courses1">
+        <button className="btn dark-btn">
+          See more here <img src={white_arrow} alt="" />
+        </button>
+      </a>
     </div>
   );
 };

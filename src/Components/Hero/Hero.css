@@ -48,20 +48,17 @@
   }
 
   .notice{
-    display: flex;
+    display: inline-block;
     height: 100px;
     width: 100%;
     border-radius: 10px;
-    border: 1px dotted red;
+    border: 1px dotted #fff;
     margin-top: 50px;
+    flex-direction: row;
     
   }
 
-  .notice a{
-    display: block;
-    margin-left: 20px;
-    margin: 10px;
-  }
+ 
 
 
 
