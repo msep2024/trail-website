@@ -10,7 +10,7 @@ import matlab from "../../assets/matlab.jpg";
 import webdevelopment from "../../assets/webdevelopmentlogo.jpg";
 import civilautocad from "../../assets/civilautocad.jpg";
 
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 
 const Courses = () => {
   return (
@@ -29,11 +29,11 @@ const Courses = () => {
           buttonName="Explore more"
         />
       </div>
-      <a href="/courses1">
+      <Link to="courses1">
         <button className="btn dark-btn">
           See more here <img src={white_arrow} alt="" />
         </button>
-      </a>
+      </Link>
     </div>
   );
 };

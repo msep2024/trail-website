@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 import "./Hero.css";
 import icon from "../../assets/dark-arrow.png";
 
@@ -12,9 +12,9 @@ const Hero = () => {
           This is a Platform which you provide guidance to grow your career.
         </p>
         <button className="btn">
-          <a href="/expolre" smooth={true} duration={500}>
+          <Link to="/expolre" smooth={true} duration={500}>
             Explore More
-          </a>{" "}
+          </Link>{" "}
           <img src={icon} />
         </button>
         <div className="notice">
