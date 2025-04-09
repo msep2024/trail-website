@@ -11,23 +11,23 @@
 }
 
 .userContainer p{
-  margin-top: 20px;
+  margin-top: 50px;
   margin-left: 10px;
   margin-right: 10px;
 
 }
 
 .userContainer img{
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
   border-radius: 50%;
 
   
 }
 
-.userContainer img{
+/* .userContainer img{
   margin-top: 10px;
-}
+} */
 
 .userContainer h1{
   margin-top: 10px;
@@ -44,3 +44,4 @@
   color: #fff;
   margin-top: 40px;
 }
+

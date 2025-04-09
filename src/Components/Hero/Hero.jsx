@@ -17,13 +17,6 @@ const Hero = () => {
           </Link>{" "}
           <img src={icon} />
         </button>
-        <div className="notice">
-          <p>
-            Hi everyone, the result will display for the test of Carrier
-            Simplify
-          </p>
-          <a href="">Google.com</a>
-        </div>
       </div>
     </div>
   );

@@ -16,18 +16,26 @@ const Courses = () => {
   return (
     <div className="courses">
       <div className="courses-picture">
-        <Card name="autoCAD" img={autocad} buttonName="Explore more" />
-        <Card name="MATLAB" img={matlab} buttonName="Explore more" />
-        <Card
-          name="WEB-DEVELOPMENT"
-          img={webdevelopment}
-          buttonName="Explore more"
-        />
-        <Card
-          name="Civil- autoCAD"
-          img={civilautocad}
-          buttonName="Explore more"
-        />
+        <Link>
+          <Card name="autoCAD" img={autocad} buttonName="Explore more" />
+        </Link>
+        <Link>
+          <Card name="MATLAB" img={matlab} buttonName="Explore more" />
+        </Link>
+        <Link to="/webdevelopment">
+          <Card
+            name="DEVELOPMENT"
+            img={webdevelopment}
+            buttonName="Explore more"
+          />
+        </Link>
+        <Link>
+          <Card
+            name="Civil- autoCAD"
+            img={civilautocad}
+            buttonName="Explore more"
+          />
+        </Link>
       </div>
       <Link to="courses1">
         <button className="btn dark-btn">

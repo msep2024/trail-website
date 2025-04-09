@@ -12,12 +12,16 @@ import Footer from "./Components/Footer/Footer";
 import Login from "./Components/Login/Login";
 import Explore from "./Components/Explore/Explore";
 import Courses1 from "./Components/Courses/Courses1";
+import WebDevelopment from "./Components/Courses/Webdevelopment/WebDevelopment";
+import Annoucument from "./Components/Annoucuments/Annoucument";
 
 const Home = () => (
   <>
     <Navbar />
     <Hero />
+    <Annoucument />
     <About />
+
     <Title subTitles="picture" title="Courses Details" />
     <Courses />
     <Title subTitles="TESTIMoNIALS" title="What student say" />
@@ -36,8 +40,8 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/explore" element={<Explore />} />
-
           <Route path="/courses1" element={<Courses1 />} />
+          <Route path="/webdevelopment" element={<WebDevelopment />} />
         </Routes>
       </div>
     </Router>

@@ -19,6 +19,7 @@
 .hero-text h1{
   font-size: 60px;
   font-weight: 600;
+  color: #fff;
 }
 
 .hero-text p{
@@ -47,16 +48,7 @@
     margin: 15px auto 30px;
   }
 
-  .notice{
-    display: inline-block;
-    height: 100px;
-    width: 100%;
-    border-radius: 10px;
-    border: 1px dotted #fff;
-    margin-top: 50px;
-    flex-direction: row;
-    
-  }
+
 
  
 

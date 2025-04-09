@@ -37,12 +37,27 @@ nav ul li{
 }
 
 .login{
-  border: none;
-  height: 30px;
-  width: 30px;
-  border-radius: 50%;
-  font-size: 10px;
+  height: 25px;
+  display: flex;
+  width: 80px;
+  font-size: 13px;
   cursor: pointer;
+  border-radius: 5px; 
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: #fff;
+  color: #212EA0;
+  
+  
+}
+ 
+
+.login-icon{
+  font-size: 20px;
+  align-items: center;
+  margin: 5px;
+
 }
 
 

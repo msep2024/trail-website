@@ -1,14 +1,15 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
-
 import menu_icon from "../../assets/menu-icon.png";
 import cslogo from "../../assets/cslogo.png";
-
-import { Link } from "react-scroll";
-import { Link as Ln } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
+import { Link as RouterLink, useNavigate } from "react-router-dom";
+import { FaUserCircle } from "react-icons/fa";
 
 const Navbar = () => {
   const [sticky, setSticky] = useState(false);
+  const [mobileMenu, setMobileMenu] = useState(false);
+  const navigate = useNavigate();
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -16,46 +17,53 @@ const Navbar = () => {
     });
   }, []);
 
-  const [mobileMenu, setMobileMenu] = useState(false);
   const toggleMenu = () => {
-    mobileMenu ? setMobileMenu(false) : setMobileMenu(true);
+    setMobileMenu(!mobileMenu);
   };
+
   return (
     <nav className={`container ${sticky ? "dark-nav" : ""}`}>
-      <img src={cslogo} className="logo" />
+      <RouterLink to="/">
+        <img src={cslogo} className="logo" alt="CS Logo" />
+      </RouterLink>
       <ul className={mobileMenu ? "" : "hide-mobile-menu"}>
         <li>
-          {" "}
-          <Link to="hero" smooth={true} offset={0} duration={500}>
+          <ScrollLink to="hero" smooth={true} offset={0} duration={500}>
             Home
-          </Link>
+          </ScrollLink>
         </li>
         <li>
-          {" "}
-          <Link to="program" smooth={true} offset={0} duration={500}>
-            Annoucuments
-          </Link>
+          <ScrollLink
+            to="annoucument"
+            smooth={true}
+            offset={-260}
+            duration={500}
+          >
+            Announcements
+          </ScrollLink>
         </li>
         <li>
-          {" "}
-          <Link to="about" smooth={true} offset={0} duration={500}>
+          <ScrollLink to="about" smooth={true} offset={0} duration={500}>
             About us
-          </Link>
+          </ScrollLink>
         </li>
         <li>
-          {" "}
-          <Link to="courses" smooth={true} offset={-260} duration={500}>
+          <ScrollLink to="courses" smooth={true} offset={-260} duration={500}>
             Courses
-          </Link>
+          </ScrollLink>
         </li>
         <li>
-          {" "}
-          <Link to="testimonials" smooth={true} offset={-260} duration={500}>
+          <ScrollLink
+            to="testimonials"
+            smooth={true}
+            offset={-260}
+            duration={500}
+          >
             Testimonial
-          </Link>
+          </ScrollLink>
         </li>
         <li>
-          <Link
+          <ScrollLink
             to="contact"
             smooth={true}
             offset={-260}
@@ -63,15 +71,20 @@ const Navbar = () => {
             className="btn"
           >
             Contact us
-          </Link>
+          </ScrollLink>
         </li>
         <li>
-          <Ln to="login">
-            <button className="login">Login</button>
-          </Ln>
+          <RouterLink to="/login" className="login">
+            Login <FaUserCircle className="login-icon" />
+          </RouterLink>
         </li>
       </ul>
-      <img src={menu_icon} alt="" className="menu-icon" onClick={toggleMenu} />
+      <img
+        src={menu_icon}
+        alt="Menu"
+        className="menu-icon"
+        onClick={toggleMenu}
+      />
     </nav>
   );
 };

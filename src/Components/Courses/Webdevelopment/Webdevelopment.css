@@ -1,0 +1,16 @@
+iframe{
+  margin: 30px;
+  display: flex;
+}
+
+h1{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #212EA0;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+  text-transform: capitalize;
+ 
+}

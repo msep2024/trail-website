@@ -12,13 +12,6 @@
   margin-bottom: 40px;
 }
 
-
-
-
-
-
-
-
 .dark-btn{
   background: #212EA0;
   color: #fff;
@@ -34,6 +27,6 @@
 
   .courses-picture img{
     width: 48%;
-    margin-bottom: 25px;
+    margin-bottom: -50px;
   }
 }
