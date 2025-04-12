@@ -42,9 +42,9 @@ const Testimonials = () => {
           <li>
             <div className="slide">
               <div className="user-info">
-                <img src={srv} alt="" />
+                <img src="" alt="" />
                 <div>
-                  <h3>Sumit Ranjan Verma</h3>
+                  <h3>xyz</h3>
                   <span>MSEP, INDIA</span>
                 </div>
               </div>
@@ -60,9 +60,9 @@ const Testimonials = () => {
           <li>
             <div className="slide">
               <div className="user-info">
-                <img src={srv} alt="" />
+                <img src="" alt="" />
                 <div>
-                  <h3>SRV</h3>
+                  <h3>xyz</h3>
                   <span>MSEP, INDIA</span>
                 </div>
               </div>
@@ -78,9 +78,9 @@ const Testimonials = () => {
           <li>
             <div className="slide">
               <div className="user-info">
-                <img src={shivam} alt="" />
+                <img src="" alt="" />
                 <div>
-                  <h3>Shivam Kumar Singh</h3>
+                  <h3>pqrs</h3>
                   <span>MSEP, INDIA</span>
                 </div>
               </div>
@@ -96,9 +96,9 @@ const Testimonials = () => {
           <li>
             <div className="slide">
               <div className="user-info">
-                <img src={prakash} alt="" />
+                <img src="" alt="" />
                 <div>
-                  <h3>Prakash Kumar</h3>
+                  <h3>abcd</h3>
                   <span>MSEP, INDIA</span>
                 </div>
               </div>

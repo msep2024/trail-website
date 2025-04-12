@@ -10,10 +10,10 @@ import Testimonials from "./Components/Testimonials/Testimonials";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import Login from "./Components/Login/Login";
-import Explore from "./Components/Explore/Explore";
 import Courses1 from "./Components/Courses/Courses1";
 import WebDevelopment from "./Components/Courses/Webdevelopment/WebDevelopment";
 import Annoucument from "./Components/Annoucuments/Annoucument";
+import ExploreUs from "./Components/ExploreUs/ExploreUs";
 
 const Home = () => (
   <>
@@ -39,9 +39,9 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/explore" element={<Explore />} />
           <Route path="/courses1" element={<Courses1 />} />
           <Route path="/webdevelopment" element={<WebDevelopment />} />
+          <Route path="/exploreUs" element={<ExploreUs />} />
         </Routes>
       </div>
     </Router>

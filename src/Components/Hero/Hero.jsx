@@ -12,7 +12,7 @@ const Hero = () => {
           This is a Platform which you provide guidance to grow your career.
         </p>
         <button className="btn">
-          <Link to="/expolre" smooth={true} duration={500}>
+          <Link to="/exploreUs" smooth={true} duration={500}>
             Explore More
           </Link>{" "}
           <img src={icon} />

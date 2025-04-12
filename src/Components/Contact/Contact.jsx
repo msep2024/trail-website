@@ -54,7 +54,7 @@ const Contact = () => {
           </li>
           <li>
             {" "}
-            <img src={phone_icon} alt="" /> +91-7763018452
+            <img src={phone_icon} alt="" /> +91-123456789
           </li>
           <li>
             {" "}
